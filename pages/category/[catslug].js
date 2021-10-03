@@ -92,7 +92,6 @@ export async function getStaticProps({ params }) {
 
     const res = await fetch(`https://dn.wcprojects.in/api/english/category/${params.catslug}`)
     const data = (await res.json());
-    console.log(data)
     return { props: { data }, revalidate: 1 }
 }
 

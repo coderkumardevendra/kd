@@ -974,7 +974,7 @@ export default function Home({ sliders, latest, politics, pune, editor, crime, i
 
                     <div className="list_post_block">
                       <ul className="list_post">
-                        {health.posts.slice(1, 3).map((post, i) => (
+                        {health.posts.slice(1).map((post, i) => (
                           <li className="clearfix" key={i}>
                             <div className="post_block_style post-float clearfix">
                               <div className="post_thumb">
