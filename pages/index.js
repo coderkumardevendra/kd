@@ -992,7 +992,7 @@ export default function Home({ sliders, latest, politics, pune, editor, crime, i
                               </div>
                               <div className="post_content">
                                 <h2 className="post_title clamped title-small">
-                                  <Link href={'/' + health.posts[0].slug}>
+                                  <Link href={'/' + post.slug}>
                                     <a>{post.title}</a>
                                   </Link>
                                 </h2>
